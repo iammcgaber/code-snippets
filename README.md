@@ -1,4 +1,2 @@
-# scripts-with-flags
-A small repo showing how to write a shell script that will take flags.
-
-To use just source the primary_script and call the util-function, passing flags and arguments to it.
+# Code Snippets
+A small repo where I keep code snippets that I use often or want to keep around for later reference.
