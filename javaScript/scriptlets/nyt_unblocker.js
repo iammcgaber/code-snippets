@@ -1,0 +1,2 @@
+//Remove NYT subscription blocker
+javascript:(function(){document.getElementById("gateway-content").remove();Array.from(document.getElementsByClassName("css-1bd8bfl")).map((el) => el.remove());Array.from(document.getElementsByClassName("css-mcm29f")).map((el) => el.style.position = "unset");})();
