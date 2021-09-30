@@ -1,0 +1,1 @@
+javascript:(function() {Array.from(document.getElementsByClassName("popup"))[0].remove()})();
