@@ -28,3 +28,17 @@
     ```bash
     git push -f origin <your_branch>
     ```
+
+
+# Approach 2
+git checkout yourBranch
+git reset $(git merge-base $(basename $(git rev-parse --abbrev-ref origin/HEAD)) $(git rev-parse --abbrev-ref HEAD))
+git add -A
+git commit -m "one commit on yourBranch"
+
+
+
+git checkout yourBranch
+git reset $(git merge-base master $(git branch --show-current))
+git add -A
+git commit -m "one commit on yourBranch"
