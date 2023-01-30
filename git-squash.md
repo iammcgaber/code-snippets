@@ -37,8 +37,8 @@ git add -A
 git commit -m "one commit on yourBranch"
 
 
-
+# Approach 3
 git checkout yourBranch
-git reset $(git merge-base master $(git branch --show-current))
+git reset $(git merge-base main $(git branch --show-current))
 git add -A
 git commit -m "one commit on yourBranch"
